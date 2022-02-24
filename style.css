@@ -143,4 +143,8 @@ div.section > h1 {
         font-size: 2rem;
         /* width: 70%; */
     }
+    .footer {
+        right: 30px;
+        bottom: -20px;
+    }
 }
