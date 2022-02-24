@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Yeseva One', cursive; */
+    font-family: 'Libre Franklin', sans-serif;
+    /* overflow: hidden; */
+}
+
+body {
+    background: rgb(1, 17, 16);
+    height: 100vh;
+}
+
+
+#particles-js {
+    background: rgb(1, 17, 16);
+    height: 100vh;
+    width: 100%;
+    /* position: absolute; */
+}
+
+.container {
+    position: absolute;
+    top: 0;
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    /* position: relative; */
+}
+
+.card1 {
+    display: flex;
+    transition: all 0.3s cubic-bezier(.17,.67,.83,.67); 
+    align-items: center;
+}
+
+.card1:hover {
+    transform: translateX(10px);
+}
+
+div > a:hover, .fa-paper-plane:hover  {
+    color: rgb(183, 255, 201);
+}
+
+
+div > a {
+    color: rgb(90, 107, 98);
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.fa-paper-plane {
+    color: rgb(2, 85, 34);
+    margin-right: 6px;
+    font-size: 13px;
+}
+
+.header > h1 {
+    font-family: 'Yeseva One', cursive;
+    transition: all 0.3s cubic-bezier(.17,.67,.83,.67);
+    color: rgb(183, 255, 201);
+    cursor: pointer;
+}
+
+.header > h1:hover {
+    transform: translateX(-10px);
+    color: rgb(37, 192, 97);
+}
+
+.section {
+    width: 80%;
+    margin: 5rem auto;
+}
+
+div.section > p {
+    color: rgb(2, 85, 34);
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    margin-bottom: 7px;
+}
+
+div.section > h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 4rem;
+    color: rgb(240, 240, 240);
+    width: 60%;
+}
+
+.footer {
+    position: absolute;
+    right: 70px;
+    bottom: -72px;
+}
+
+.flex1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fa-brands {
+    color: rgb(2, 85, 34);
+    font-size: 20px;
+    margin-bottom: 7px;
+    transition: all .2s ease;
+}
+
+.fa-brands:hover {
+    color: rgb(183, 255, 201);
+    transform: scale(1.1);
+}
+
+.line {
+    background-color: #fff;
+    width: 1px;
+    height: 90px;
+}
+
+@media (max-width: 1013px) {
+    div.section > h1 {
+        font-size: 3rem;
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    div.section > h1 {
+        font-size: 2rem;
+        /* width: 70%; */
+    }
+}
